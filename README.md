@@ -1,13 +1,14 @@
 # Installation of SEAL Library 
 These implementation has written over C++ using SEAL library from microsoft therefore to use these codes first install dependencies and then install SEAL as per guidance from SEAL group
 ## Requirements/Dependencies 
-Clang++ <br />
-  ```sudo apt update && sudo apt install clang``` <br />
- GNU G++ <br />
- ```sudo apt update && sudo apt install build-essential``` <br />
- CMake <br />
-  ```sudo snap install cmake --classic)```
+Install Clang++ or GNU g++ and CMake using following commands: <br />
+```
+sudo apt update && sudo apt install clang
+sudo apt update && sudo apt install build-essential
+sudo snap install cmake --classic
+```
 ## Install seal library
+After installing abovementioned dependencies, install seal library using following commands:
 ```
 git clone https://github.com/microsoft/SEAL.git
 cd Seal
@@ -17,7 +18,7 @@ sudo cmake --install build
 ```
 
 # Run SealDemo files 
-
+Now you are ready to use this implementation via following commands:
 ## Download/Clone Source repository and initialize from git 
 
 Clone <br/>
