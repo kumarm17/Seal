@@ -19,6 +19,16 @@ sudo cmake --install build
 
 # Run SealDemo files 
 Now you are ready to use this implementation via following commands:
+Clone <br/>
+```
+git clone <git repository url>
+cd SEAL
+cmake .
+make 
+./bin/sealexamples
+```
+Initializing git in current directory <br />
+```git init ```<br />
 ## Download/Clone Source repository and initialize from git 
 
 Clone <br/>
