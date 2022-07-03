@@ -18,11 +18,12 @@ sudo cmake --install build
 ```
 
 # Run SealDemo files 
-Now you are ready to use this implementation via following commands: <br/>
+##Now you are ready to use this implementation via following commands: <br/>
 Clone <br/>
-```git clone https://github.com/Mishra1992/SEAL.git ``` <br/>
-Move to SEAL directory <br/>
-```cd SEAL``` <br/>
+```
+git clone https://github.com/Mishra1992/SEAL.git 
+cd SEAL
+```
 Configure, compile the files and check the output result.<br/>
 ```
 cmake .
