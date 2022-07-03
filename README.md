@@ -12,7 +12,7 @@ After installing abovementioned dependencies, install seal library using followi
 ```
 git clone https://github.com/microsoft/SEAL.git
 cd Seal
-cmake -S . -B build [//]: # (This is a comment.)
+cmake -S . -B build
 cmake --build build
 sudo cmake --install build
 ```
@@ -40,7 +40,7 @@ git config --global user.name <user name>
 git config --global user.email <email id> 
 ```
 Enable some colorization of Git output. <br/>
-```git config --global color.ui auto ```
+```git config --global color.ui auto ``` <br />
 Git branch: Check the branch <br />
 ```git branch``` <br />
 To change the branch <br />
