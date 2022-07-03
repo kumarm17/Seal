@@ -22,7 +22,7 @@ Now you are ready to use this implementation via following commands: <br/>
 ```
 git clone https://github.com/Mishra1992/SEAL.git 
 cd SEAL
-cmake .
+cmake . # hello there
 make 
 cd bin && ./sealexamples 
 ``` 
