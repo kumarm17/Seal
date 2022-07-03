@@ -39,7 +39,7 @@ git clone https://github.com/microsoft/SEAL.git
 git init 
 ```
 
-## Git configuration 
+Git configuration: <br/>
 Set the name and email that will be attached to your commits and tags.
 ```
 git config --global user.name <user name> 
@@ -48,7 +48,7 @@ git config --global user.email <email id>
 Enable some colorization of Git output. <br/>
 ```git config --global color.ui auto ```
 
-## Git branch <br />
+Git branch: <br />
 Check the branch <br />
 ```git branch``` <br />
 To change the branch <br />
@@ -58,7 +58,7 @@ or <br />
 To delete the branch
 ```git checkout -D <branch name> ```<br />
 
-## Update your files then do the following <br />
+Update your files then do the following: <br />
 Check for changes <br />
 ```git status ```<br />
 If changed, add changes to staging area <br />
