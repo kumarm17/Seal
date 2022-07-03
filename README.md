@@ -32,16 +32,18 @@ Check the output as following
 
 ## Contribute to the project as following.
 Clone and initialize git in current directory 
-```git clone <git repository url>
-git init ```
+```
+git clone <git repository url>
+git init 
+```
 
 ## Git configuration 
-Set the name and email that will be attached to your commits and tags. <br />
+Set the name and email that will be attached to your commits and tags.
 ```
 git config --global user.name <user name> 
 git config --global user.email <email id> 
 ```
-Enable some colorization of Git output. <br />
+Enable some colorization of Git output.
 ```git config --global color.ui auto ```
 
 ## Git branch <br />
