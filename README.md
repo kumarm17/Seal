@@ -34,22 +34,20 @@ Clone and initialize git in current directory
 git clone https://github.com/microsoft/SEAL.git
 git init 
 ```
-Git configuration: <br/>
-Set the name and email that will be attached to your commits and tags.
+Git configuration: Set the name and email that will be attached to your commits and tags.
 ```
 git config --global user.name <user name> 
 git config --global user.email <email id> 
 ```
 Enable some colorization of Git output. <br/>
 ```git config --global color.ui auto ```
-Git branch: <br />
-Check the branch <br />
+Git branch: Check the branch <br />
 ```git branch``` <br />
 To change the branch <br />
 ```git checkout -b <branch name> ``` <br />
 or <br />
 ```git switch -c <new branch> ```<br />
-To delete the branch
+To delete the branch <br/>
 ```git checkout -D <branch name> ```<br />
 Update your files then do the following: <br />
 Check for changes <br />
