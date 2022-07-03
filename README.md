@@ -27,7 +27,7 @@ Configure, compile the files and check the output result.<br/>
 ```
 cmake .
 make 
-./bin/sealexamples 
+cd bin && ./sealexamples 
 ``` 
 
 # Contribute to the project as following.
