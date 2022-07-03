@@ -1,5 +1,5 @@
 # Installation of SEAL Library 
-These implementation has written over C++ using SEAL library from microsoft therefore install first dependencies and then install SEAL as per guidance from SEAL group.
+These implementation has written over C++ using SEAL library from microsoft therefore to use these codes first install dependencies and then install SEAL as per guidance from SEAL group
 ## Requirements/Dependencies 
 Clang++ <br />
   ```sudo apt update && sudo apt install clang``` <br />
