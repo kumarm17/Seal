@@ -23,14 +23,14 @@ Clone <br/>
 ```git clone https://github.com/Mishra1992/SEAL.git ``` <br/>
 Move to SEAL directory <br/>
 ```cd SEAL``` <br/>
-Configure the files <br/>
-```cmake . ``` <br/>
-Compile the file <br/>
-```make ``` <br/>
-Check the output as following <br/>
-```./bin/sealexamples ``` <br/>
+Configure, compile the files and check the output result.<br/>
+```
+cmake .
+make 
+./bin/sealexamples 
+``` 
 
-## Contribute to the project as following.
+# Contribute to the project as following.
 Clone and initialize git in current directory 
 ```
 git clone <git repository url>
