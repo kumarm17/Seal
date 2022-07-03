@@ -21,16 +21,17 @@ sudo cmake --install build
 Now you are ready to use this implementation via following commands:
 Clone <br/>
 ```
-git clone <git repository url>
-cd SEAL
-cmake .
-make 
-./bin/sealexamples
-```
-Initializing git in current directory <br />
-```git init ```<br />
-## Download/Clone Source repository and initialize from git 
+git clone https://github.com/Mishra1992/SEAL.git ``` <br/>
+Move to SEAL directory
+```cd SEAL``` <br/>
+Configure the files
+```cmake . ``` <br/>
+Compile the file
+```make ``` <br/>
+Check the output as following 
+```./bin/sealexamples ``` <br/>
 
+## Contribute to the project as following.
 Clone <br/>
 ```git clone <git repository url>``` <br/>
 Initializing git in current directory <br />
