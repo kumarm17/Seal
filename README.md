@@ -18,7 +18,7 @@ sudo cmake --install build
 ```
 
 # Run SealDemo files 
-##Now you are ready to use this implementation via following commands: <br/>
+## Now you are ready to use this implementation via following commands: <br/>
 Clone <br/>
 ```
 git clone https://github.com/Mishra1992/SEAL.git 
@@ -32,9 +32,10 @@ cd bin && ./sealexamples
 ``` 
 
 # Contribute to the project as following.
+##If you are interested to contribute to the project please go through the following guidence:
 Clone and initialize git in current directory 
 ```
-git clone <git repository url>
+git clone https://github.com/microsoft/SEAL.git
 git init 
 ```
 
@@ -44,7 +45,7 @@ Set the name and email that will be attached to your commits and tags.
 git config --global user.name <user name> 
 git config --global user.email <email id> 
 ```
-Enable some colorization of Git output.
+Enable some colorization of Git output. <br/>
 ```git config --global color.ui auto ```
 
 ## Git branch <br />
