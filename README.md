@@ -26,8 +26,8 @@ Move to SEAL directory <br/>
 Configure the files <br/>
 ```cmake . ``` <br/>
 Compile the file <br/>
-```make ```
-Check the output as following 
+```make ``` <br/>
+Check the output as following <br/>
 ```./bin/sealexamples ``` <br/>
 
 ## Contribute to the project as following.
