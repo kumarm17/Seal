@@ -32,7 +32,7 @@ cd bin && ./sealexamples
 ``` 
 
 # Contribute to the project as following.
-##If you are interested to contribute to the project please go through the following guidence:
+## If you are interested to contribute to the project please go through the following guidence:
 Clone and initialize git in current directory 
 ```
 git clone https://github.com/microsoft/SEAL.git
