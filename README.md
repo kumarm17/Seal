@@ -20,8 +20,7 @@ sudo cmake --install build
 # Run SealDemo files 
 Now you are ready to use this implementation via following commands:
 Clone <br/>
-```
-git clone https://github.com/Mishra1992/SEAL.git ``` <br/>
+```git clone https://github.com/Mishra1992/SEAL.git ``` <br/>
 Move to SEAL directory
 ```cd SEAL``` <br/>
 Configure the files
@@ -32,10 +31,9 @@ Check the output as following
 ```./bin/sealexamples ``` <br/>
 
 ## Contribute to the project as following.
-Clone <br/>
-```git clone <git repository url>``` <br/>
-Initializing git in current directory <br />
-```git init ```<br />
+Clone and initialize git in current directory 
+```git clone <git repository url>
+git init ```
 
 ## Git configuration 
 Set the name and email that will be attached to your commits and tags. <br />
