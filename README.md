@@ -12,7 +12,7 @@ After installing abovementioned dependencies, install seal library using followi
 ```
 git clone https://github.com/microsoft/SEAL.git
 cd Seal
-cmake -S . -B build <!--- This isn't commented out --->.
+cmake -S . -B build <!-- This isn't commented out -->
 cmake --build build
 sudo cmake --install build
 ```
