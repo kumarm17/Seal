@@ -57,6 +57,7 @@ Check the following diagram to see how matrix-vector multiplication works if vec
 We use Chebyshev polynomial approximation for the activation function used in cryptoforest and can be well understood it evaluation over encrypted data by the following diagram:
 
 <img src="diagram/chebyshevpolynomial.jpg" width=150%>
+
 ## Contributing
 
 ---
