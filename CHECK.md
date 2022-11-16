@@ -50,7 +50,7 @@ Give an example
 ## Plaintext Matrix-Ciphertext Vector multiplication
 Check the following diagram to see how matrix-vector multiplication works if vector is encrypted. This method was proposed by [Halevi and Shoup](https://www.shoup.net/papers/helib.pdf). 
 
-<img src="diagram/matvec.jpg" width=75%>
+<img src="diagram/matvec.jpg" width=100%>
 
 ## Contributing
 
