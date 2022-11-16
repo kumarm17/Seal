@@ -10,6 +10,7 @@ Cryptoforest is an implementation of homomorphic neural random forest which is h
   - [Running the tests](#running-the-tests)
   - [Examples](#examples)
 - [Plaintext Matrix-Ciphertext Vector Multiplication](#plaintext-matrix-ciphertext-vector-multiplication)
+- [Chebyshev Polynomial Activation Function](#chebyshev-polynomial-activation-functio)
 - [Contributing](#contributing)
 - [License](#license)
 - [Authors](#authors)
@@ -52,6 +53,10 @@ Check the following diagram to see how matrix-vector multiplication works if vec
 
 <img src="diagram/matvec.jpg" width=100%>
 
+## Chebyshev Polynomial Activation Function
+We use Chebyshev polynomial approximation for the activation function used in cryptoforest and can be well understood it evaluation over encrypted data by the following diagram:
+
+<img src="diagram/chebyshevactivation.jpg" width=100%>
 ## Contributing
 
 ---
