@@ -1,6 +1,6 @@
 # Cryptoforest
 
-Cryptoforest is an implementation of homomorphic neural random forest. For implementation, we use homomorphic encryption library [Microsoft SEAL](https://github.com/microsoft/SEAL). Cryptoforest uses [CKKS](https://eprint.iacr.org/2016/421.pdf) encryption scheme which is implemented in SEAL to support homomorphic evaluation for approximate arithmatic. 
+Cryptoforest is an implementation of homomorphic neural random forest which is homomorphic evaluation of [Neural Random Forest](https://arxiv.org/pdf/1604.07143.pdf). For implementation, we use homomorphic encryption library [Microsoft SEAL](https://github.com/microsoft/SEAL). Cryptoforest uses [CKKS](https://eprint.iacr.org/2016/421.pdf) encryption scheme which is implemented in SEAL to support homomorphic evaluation for approximate arithmatic. 
 
 ## Getting started
 First install the Visual Studio 2022 with C++ CMake Tools for Windows, Clang++ (>= 5.0) or GNU G++ (>= 6.0), CMake (>= 3.13) and Xcode toolchain (>= 9.3), CMake (>= 3.13) for Windows, Linux and MacOS, respectively before installing [Microsoft SEAL](https://github.com/microsoft/SEAL) library.
