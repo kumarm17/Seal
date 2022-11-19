@@ -16,9 +16,8 @@ cmake -S . -B build
 cmake --build build
 sudo cmake --install build
 ```
-
-Check the following diagram to see how matrix-vector multiplication works if vector is encrypted. This method was proposed by [Halevi and Shoup](https://www.shoup.net/papers/helib.pdf). Let $W$ ba a matrix of dimension $3 \times 3$ and $\mathbf{x}$ be a vector of dimension $3 \times 1$. Then matrix-vector multiplication can be computed as $$W.x=\sum_{i=0}^{2}\textrm{diag}^i(W)\cdot \textrm{rot}^i(\mathbf{x}),$$ 
-  where $\textrm{diag}^i(W)$ and $\textrm{rot}^i(\mathbf{x})$ are $i^{\textrm{th}}$ diagonal of matrix $W$ and $i^{\textrm{th}}$ left rotation of $x$, respectively. 
+Check the following diagram to see how matrix-vector multiplication works if vector is encrypted. This method was proposed by [Halevi and Shoup](https://www.shoup.net/papers/helib.pdf). Let $W$ ba a matrix of dimension $3 \times 3$ and $\mathbf{x}$ be a vector of dimension $3 \times 1$. Then matrix-vector multiplication can be computed as $$\mathsf{W}\cdot\mathsf{x}=\sum_{i=0}^{2}\textrm{diag}^i(\mathsf{W})\cdot \textrm{rot}^i(\mathsf{x}),$$ 
+  where $\textrm{diag}^i(W)$ and $\textrm{rot}^i(\mathbf{x})$ are $i^{\textrm{th}}$ diagonal of matrix $\mathsf{W}$ and $i^{\textrm{th}}$ left rotation of $\mathsf{x}$, respectively.
 
 # Run SealDemo files 
 Now you are ready to use this implementation via following commands: <br/>
