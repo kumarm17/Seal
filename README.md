@@ -83,12 +83,12 @@ We use matrix-vector multiplication method proposed in [Halevi and Shoup](https:
 A polynomial approximation is required to substitute activation functions because we are unable to compute non-linear activation functions such as sigmoid and relu functions over encrypted data. We use chebyshev polynomial approximation of degree $15$ which is $$\sum_{i=0}^{15}c_ix^i,$$ where $c_i\in \{ 0.5000, 3.2134, 0.0000, -27.1886, 0.0000, 148.4209, 0.0000, -464.3546, 0.0000,\\ 848.3555, 0.0000, -894.7264, 0.0000, 504.3227, 0.0000, -117.5446 0.0000 \}$. It can be evaluate in the following steps:
   - Compute $x^2$, relinearize and rescale it (whenever we multiply ciphertext and ciphertext, relinearization and rescaling is must therefore we ignore writing relinearize and rescale after each ciphertext-ciphertext multiplication). 
   - Compute $x^3$ by multiplying $x^2$ and $x$ and make sure $x^2$ and $x$ uses same scale and encryption parameters  before multiplying it. 
-  - Compute $x^{2i-1} = x^2\cdot x^{2i-3}$ for $ i \in \[8\]$ and again make sure $x^2$ and $x^{2i-3}$ uses same scale and encryption parameters  before multiplying it.
+  - Compute $x^{2i-1} = x^2\cdot x^{2i-3}$ for $ i \in \[8\] $ and again make sure $x^2$ and $x^{2i-3}$ uses same scale and encryption parameters  before multiplying it.
   - Now, we have $x^{2i-1}$ for $i\in \[8\]$ at levels $\ell - i$.
   - Next, we prepare $c_{2i-1}$ by encoding in plaintext space and modulus switching at level $\ell - i$.
   - Compute the monomials $c_{2i-1}\cdot x_{2i-1}$, rescale and modulus switch to the lowest level $\ell-8$.
   - Add all these monomials using AddMany operation provided in SEAL to receive $\sum_{i=0}^{8}c_{2i-1}\cdot x_{2i-1}$. 
-  - Finally, encode the constant term of chebyshev polynomial, modulus switch to $(\ell-8)^{\textrm{th}$ level and add to the sum of monomials computed above.
+  - Finally, encode the constant term of chebyshev polynomial, modulus switch to $(\ell-8)^{\textrm{th}}$ level and add to the sum of monomials computed above.
 To visualize all these steps, check the [Chebyshev polynomial evaluation diagram](<img src="diagram/chebyshev-polynomial.jpg" height="100%" width=100%>) and other diagrams such as [monomial evaluation](<img src="diagram/xv_element-wise.jpg" height="100%" width=100%>) in diagram folder. 
 
 
